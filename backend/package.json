@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "RESTful API for Staff Scheduler",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuardianBob"
+  },
+  "keywords": [
+    "scheduling",
+    "scheduler",
+    "calendar"
+  ],
+  "author": "Jesse Meyer",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.1.0",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.25.3"
+  }
+}
